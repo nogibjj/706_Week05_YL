@@ -1,6 +1,17 @@
-def self_add(x, y):
+from mylib.extract import extract
+from mylib.query import Query1, Query2, Query3
+from mylib.transform_load import load
 
-    return x+y
+print("Extracting data...")
+extract()
 
-if __name__ == "__main__":
-    self_add(2, 3)
+print("Loading data...")
+load()
+
+print("Querying data...")
+Query1()
+print()
+Query2()
+print()
+Query3()
+print()

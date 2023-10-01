@@ -9,13 +9,13 @@ This repository includes the main tasks for Week 05:
 * `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 * `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
 * `README.md` is the instruction file for the readers.
-* `descriptive.py` is a Python file that contains the main function.
-* `test_descriptive.py`  is a test file for `descriptive.py` that can successfully run in IDEs.
+* `main.py` is a Python file that contains the main function.
+* `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
 
-Create a Python script that interacts with a SQL database.
+Create a Python script that interacts with a SQL database `GroceryDB`, with CRUD functions: Create, Read, Update, and Delete operations on `GroceryDB` database. It uses `SQLite3` for database interaction and `PrettyTable` to display query results in tabular form.
 
 
 ## Project environment
@@ -24,6 +24,10 @@ Create a Python script that interacts with a SQL database.
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 * To run the code, use the command `python main.py` in the terminal
 
+## Workflow
+
+![Alt text](figures/ETL_workflow.png)
+
 ## Check format & errors
 
 1. make format
@@ -31,3 +35,7 @@ Create a Python script that interacts with a SQL database.
 2. make lint
 
 3. make test
+
+## Reference
+
+https://github.com/nogibjj/sqlite-lab
