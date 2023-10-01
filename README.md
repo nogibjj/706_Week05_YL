@@ -17,12 +17,21 @@ This repository includes the main tasks for Week 05:
 
 Create a Python script that interacts with a SQL database `GroceryDB`, with CRUD functions: Create, Read, Update, and Delete operations on `GroceryDB` database. It uses `SQLite3` for database interaction and `PrettyTable` to display query results in tabular form.
 
+I used 3 queries:
+
+* `Query 1`: selects all the rows from `GroceryDB` table and displays the top 5 rows.
+
+* `Query 2`: updates the `count_products` column of `GroceryDB` table for the row with `general_name` as `arabica coffee`.
+
+* `Query 3`: deletes the row from `GroceryDB` table with `general_name` as `arabica coffee`.
+
 
 ## Project environment
 
 * Use codespace for scripting
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
 * To run the code, use the command `python main.py` in the terminal
+* To test the code, use the command `python -m unittest test_main.py` in the terminal
 
 ## Workflow
 
