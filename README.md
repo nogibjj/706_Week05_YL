@@ -12,6 +12,7 @@ This repository includes the main tasks for Week 05:
 * `main.py` is a Python file that contains the main function.
 * `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
+* `mylib` contains the scripts for extracting, querying, transforming and loading the database file `GroceryDB_IgFPro.csv`: `extract.py`, `query.py`, `transform_load.py`.
 
 ## Project description
 
