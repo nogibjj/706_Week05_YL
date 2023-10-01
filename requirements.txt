@@ -10,8 +10,6 @@ ruff
 boto3
 prettytable
 
-unittest
-
 #web
 fastapi
 uvicorn
