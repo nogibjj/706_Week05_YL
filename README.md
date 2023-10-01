@@ -21,9 +21,15 @@ I used 3 queries:
 
 * `Query 1`: selects all the rows from `GroceryDB` table and displays the top 5 rows.
 
+`SELECT * FROM GroceryDB LIMIT 5 OFFSET 1`
+
 * `Query 2`: updates the `count_products` column of `GroceryDB` table for the row with `general_name` as `arabica coffee`.
 
+`UPDATE GroceryDB SET count_products = 100 WHERE general_name = arabica coffee`
+
 * `Query 3`: deletes the row from `GroceryDB` table with `general_name` as `arabica coffee`.
+
+`DELETE FROM GroceryDB WHERE general_name = arabica coffee`
 
 
 ## Project environment
@@ -43,7 +49,11 @@ I used 3 queries:
 
 2. make lint
 
+![Alt text](figures/lint.png)
+
 3. make test
+
+![Alt text](figures/test.png)
 
 ## Reference
 
