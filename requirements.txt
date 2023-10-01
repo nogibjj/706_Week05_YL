@@ -8,6 +8,7 @@ pylint==2.15.3
 #rust based linter
 ruff
 boto3
+prettytable
 
 #web
 fastapi
@@ -19,3 +20,4 @@ pandas
 matplotlib
 seaborn
 polars
+requests

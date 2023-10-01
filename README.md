@@ -1,8 +1,8 @@
 [![CI](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml)
 
-# 706_Week01_YL
+# 706_Week05_YL
 
-This repository includes the main tasks for Week 1:
+This repository includes the main tasks for Week 05:
 
 * `Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 * `.devcontainer` includes a Dockerfile and `devcontainer.json`. The `Dockerfile` within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
@@ -14,6 +14,8 @@ This repository includes the main tasks for Week 1:
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 
 ## Project description
+
+Create a Python script that interacts with a SQL database.
 
 
 ## Project environment
